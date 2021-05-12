@@ -1,5 +1,5 @@
 {% set name = "portpicker" %}
-{% set version = "1.3.1" %}
+{% set version = "1.3.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/portpicker-{{ version }}.tar.gz
-  sha256: d2cdc776873635ed421315c4d22e63280042456bbfa07397817e687b142b9667
+  sha256: 0810733c70306e6a68ee201f82155b74f6c17d655fb562f17dd6a772d0393a84
 
 build:
   number: 0
